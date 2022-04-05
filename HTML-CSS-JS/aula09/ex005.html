@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Estuando DOM </title>
+    <style>
+        body {
+            background-color: rgb(24, 55, 95);
+            color: blanchedalmond;
+            font: normal 15pt arial;
+        }
+    </style>
+</head>
+<body>
+<h1> Aprendendo JavaScript </h1>
+<p> Recode Pro 2021</p>
+<p> A minha familia é um projeto de Deus </p>
+<p> Delucca pacotinho de amor </p>
+<div id = 'msg'> Clique aqui </div>
+<script> 
+   // document.write(document.URL) vai acessar minha URL 
+var corpo = document.write.body //vai mudar a cor do fundo
+var p1 = document.getElementsByTagName('p')[1]
+/* var d = document.getElementById('msg')
+    d.style.background = 'green'
+    d.innerText = 'delucca'*/
+    var d = document.queryselector('div#msg') // div utiliza # e class utiliza .
+    d.style.background = 'black'
+
+    /*corpo.style.background = 'blue'*/
+    document.write(p1.innerText) // innerText vai escrever o texto que esta no primeiro sem formatação
+    document.write(p1.innerHTML) // ennerhtml vai escrever o texto no formato original
+    p1.style.color = 'black' // vai mudar a cor do meu paragrafo
+  
+<script> 
+    
+</body>
+</html>
